@@ -1,0 +1,81 @@
+a {
+    color: #fbfbfb;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.cabecalho {
+    height: 180px;
+    background-color: #2aa6c2d2;
+    border: 3px solid;
+    border-color: #27A8C4;
+    border-radius: 25px;
+    width: 20px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 10px;
+    margin-bottom: 65px;
+    background-color: #FBAE75;
+    text-decoration: bold;
+}
+
+.navbar-title {
+    text-align: center;
+    width: 100%;
+}
+
+.navbarNav a {
+    color: #FBAE75;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar-title {
+    text-align: center;
+    justify-content: center;
+    color: #fbfbfb;
+    ;
+    font-family: serif;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.navbar_bottom {
+    margin-top: 3%;
+    border: none;
+    background: #27A8C4;
+}
+
+.logo {
+    font-size: 20px;
+    margin-top: 45px;
+    margin-right: 180px;
+    padding: 20px;
+}
+
+/*conteudo da página*/
+
+.pets{
+    list-style: none;/*tira o marcador*/
+    display: flex; /*deixa a imagem flexivel p alinhamento*/
+    flex-direction: row; /*imagens em formato de linha*/
+    flex-wrap: wrap; /*imagem vai se adaptar ao tamanho da tela*/
+    justify-content: center;/*centraliza as imagens da página*/
+    gap: 10px; /*espaço entre cada imagem*/
+    margin-top: 40px; /*margem acima de casa imagem*/
+    border-radius: 25px;
+}
+
+li img{
+    width: 400px;
+    height: 300px;
+    border: 5px solid #fbfbfb(112, 111, 111);
+    border-radius: 25px;
+}
+
+h2{
+    text-align: center;
+    color:#FBAE75;
+}
