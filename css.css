@@ -1,0 +1,39 @@
+body{
+    background-color: #f8f8f8;
+    margin-right: 400px;
+
+}
+
+
+.img{
+    height: 300px;
+    margin-top: 40px;
+    padding: 10px;
+  margin-right: 50px;
+}
+.h3{
+    text-align: center;
+    color: #27a8c4;
+}
+.row{
+background-color: #fff;
+            border-radius: 20px;
+            box-shadow: .5px 10px 15px rgba(0, 0, 0, .2);
+            /*sombreado*/
+            margin: 19px auto;
+            padding: 20px;
+            position: center;
+            top: 0px;
+            width: 100%;
+            padding: 18px 6% 60px 6%;
+            margin: 90px ;
+            background: #fcfcfc;
+            border: 2px solid rgba(147, 184, 189, 0.8);
+        }
+
+        .btn{
+            background-color: #27a8c4;
+            color: black;
+        }
+       
+        
